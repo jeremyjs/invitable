@@ -1,15 +1,42 @@
+body {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 300;
+}
+
 .full-container {
+position: fixed;
   height: 100%;
   width: 100%;
 }
 
-.form-wrapper {
+.full-container {
   height: 100vh;
 }
 
-.main-form {
-  margin-top: 25vh;
-  margin-left: 40%;
+.full-container .row {
+  text-align: center;
+  padding: 0 20%;
+  margin-bottom: 20px;
+}
+
+.trans-bg {
+  background: rgba(0, 0, 0, .30);
+  border-radius: 0 0 10px 10px;
+}
+
+.form-group input {
+  width :100%;
+}
+
+.main-form .action-buttons .btn {
+  width: 48%;
 }
 
 .hidden {

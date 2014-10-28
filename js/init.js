@@ -2,6 +2,6 @@ $(function() {
   $("#page-container").backstretch([
       "./img/inbox.jpg"
     , "./img/facebook.png"
-    , "./img/nail-biting.jpg"
+    , "./img/frustrated-woman.jpg"
   ], {duration: 5000, fade: 1250});
 });
